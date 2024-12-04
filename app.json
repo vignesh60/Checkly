@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "target",
+    "name": "Checkly",
     "slug": "target",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.vignesh_33.target"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "32e32c64-7fac-466e-a7be-51eaddc27e14"
+      }
     }
   }
 }
